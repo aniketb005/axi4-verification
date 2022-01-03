@@ -4,6 +4,11 @@ This project was completed in 2019 using QuestaSim and Riviera Aldec Pro(for Ass
 
 This is a configurable UVM based verification IP. It verifies the AXI protocol and generates the required functional coverage.
 
+Testbench Architecture:
+
+![Alt text](./test/axi_tb_arch.png?raw=true)
+
+
 1. Developed an environment with single master agent and slave agent
 which can be configured later.
 2. Verified Master and Slave's Universal Verification Component(UVC) functionality with different types of transfers and bursts.
